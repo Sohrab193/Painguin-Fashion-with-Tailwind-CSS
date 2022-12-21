@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panguin Fashion Overview and tailwind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/61673d36fe.js" crossorigin="anonymous"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        btn: '#A4BC46',
+                        womenjaket: '#F1F1F1',
+                    }
+                }
+            }
+        }
+    </script>
+
+</head>
+
+<body>
+    <header class="h-screen p-20 content bg-amber-50 mb-16">
+        <nav class="mb-20 flex justify-between  ">
+            <div>
+                <img class="w-1/2" src="images/logo.png" alt="">
+            </div>
+            <div class="flex text-4xl items-center ">
+
+                <div class="mr-7 ">
+                    <a href="index.html">Home</a>
+                </div>
+                <div class="mr-7 ">
+                    <a href="product.html">Product</a>
+                </div>
+                <div class="mr-7 ">
+                    <a href="about.html">About Us</a>
+                </div>
+                <div class="mr-7 ">
+                    <a href="contract.html">Contract Us</a>
+                </div>
+            </div>
+        </nav>
